@@ -166,7 +166,17 @@ public class Commands {
         }
     }
 
-    
+    void clear() {
+
+        /*File f;
+        f = new File(name);
+        if (!f.exists()) {
+            f.mkdir();
+        } else {
+            JOptionPane.showMessageDialog(null, "File already exist");
+        }*/
+        TerminalGUI.TerminalScreen.setText("");
+    }
 
 
     String ls(String path) throws IOException {

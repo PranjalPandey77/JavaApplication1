@@ -393,7 +393,7 @@ public class TerminalGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextArea TerminalScreen;
+    public static javax.swing.JTextArea TerminalScreen;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
